@@ -1,0 +1,10 @@
+
+.wrapper{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #dddd;
+    background-color: skyblue;
+    alignment-baseline: auto;
+
+}

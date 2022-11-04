@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compayible" content="IE=edge">
+	<meta name="viewpoint" content="width= divice width, inicial-scale=1.0">
+	<title>block level and inline element</title>
+
+	<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<body>
+	
+
+	<p style="border: 1px solid black">Hello World</p>
+<div style="border: 1px solid black">Hello World</div>
+
+<p>The P and the DIV elements are both block elements</p>
+
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Mirkan Mishuk</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Dhaka 564, Bashundhara<br>
+Bangladesh
+</address>
+
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
+
+<table>
+  <tr>
+    <th>Amount</th>
+    <th>Taka</th>
+  </tr>
+  <tr>
+    <td>Rice</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Vegetable</td>
+    <td>$80</td>
+
+  </tr>
+</table>
+
+
+<h1>The script element</h1>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+<img src="images/ssb.jpg" alt="ssb" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+
+<p><label for="review">Review</label></p>
+  <textarea id="review" name="review" rows="4" cols="50">write here...</textarea>
+  <br>
+  <input type="submit" value="Submit">
+
+</body>
